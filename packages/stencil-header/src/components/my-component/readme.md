@@ -7,12 +7,14 @@
 
 ## Properties
 
-| Property  | Attribute | Description | Type     | Default     |
-| --------- | --------- | ----------- | -------- | ----------- |
-| `first`   | `first`   |             | `string` | `undefined` |
-| `last`    | `last`    |             | `string` | `undefined` |
-| `middle`  | `middle`  |             | `string` | `undefined` |
-| `useauth` | `useauth` |             | `string` | `undefined` |
+| Property       | Attribute | Description | Type       | Default     |
+| -------------- | --------- | ----------- | ---------- | ----------- |
+| `data`         | `data`    |             | `string`   | `undefined` |
+| `first`        | `first`   |             | `string`   | `undefined` |
+| `last`         | `last`    |             | `string`   | `undefined` |
+| `middle`       | `middle`  |             | `string`   | `undefined` |
+| `myInnerArray` | --        |             | `string[]` | `undefined` |
+| `useauth`      | `useauth` |             | `string`   | `undefined` |
 
 
 ## Events
