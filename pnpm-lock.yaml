@@ -11,9 +11,6 @@ importers:
       module2:
         specifier: workspace:*
         version: link:packages/module2
-      react-project:
-        specifier: workspace:*
-        version: link:apps/react-project
       stencil-header-main:
         specifier: workspace:*
         version: link:packages/stencil-header
