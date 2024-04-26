@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+.header-main{
+  display: flex;
+  height: 10vh;
+  justify-content: end;
+  align-items: center;
+  background-color: darkgray;
+  padding-inline: 20px;
+}
+.header-main nav {
+  display: flex;
+  column-gap: 20px;
+}

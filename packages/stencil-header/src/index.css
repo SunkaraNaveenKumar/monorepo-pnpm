@@ -1,0 +1,10 @@
+button {
+  border: none; /* Removes default border */
+  background-color: transparent; /* Removes default background color */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  outline: none; /* Removes default outline */
+}
+body {
+    background-color: black;
+}

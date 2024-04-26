@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+    <script type="module" src="/build/stencil-comp.esm.js"></script>
+    <script nomodule src="/build/stencil-comp.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      button {
+        border: none; /* Removes default border */
+        background-color: transparent; /* Removes default background color */
+        padding: 0; /* Removes default padding */
+        margin: 0; /* Removes default margin */
+        outline: none; /* Removes default outline */
+      }
+    </style>
+  </head>
+  <body>
+    <script></script>
+    <my-component
+      is-completed="true"
+      handleclick="{handleclick}"
+      data='{"name":"Naveen"}'
+      useauth='{"name":"Naveen"}'
+      first="Stencil"
+      last="'Don't call me a framework' JS"
+    ></my-component>
+  </body>
+</html>
