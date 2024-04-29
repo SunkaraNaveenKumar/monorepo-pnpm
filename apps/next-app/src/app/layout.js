@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import 'stencil-header-main'
+
 // import {
 //   applyPolyfills,
 //   defineCustomElements,

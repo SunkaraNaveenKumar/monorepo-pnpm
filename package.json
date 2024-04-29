@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"pnpm -F stencil-header-main run build && pnpm -F react-project -F vue-project run dev"
+    "start":"pnpm -F stencil-header-main -F next-app -F react-project -F vue-project run dev"
   },
   "keywords": [],
   "author": "",

@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
+    "dev": "stencil build --dev --watch --serve",
     "generate": "stencil generate"
   },
   "license": "MIT",
